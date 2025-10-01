@@ -8,10 +8,8 @@ const ShopScreen = ({navigation}) => {
       <Text style={styles.text}>Shop Screen</Text>
 
       <View style={styles.productsContainer}>
-        <ProductComp productName="Product 1" productPrice="99.99" image={require('../../assets/producti1.png')} />
-        <ProductComp productName="Product 2" productPrice="89.99" image={require('../../assets/producti2.png')} />
-        <ProductComp productName="Product 3" productPrice="79.99" image={require('../../assets/producti3.png')} />
-        <ProductComp productName="Product 4" productPrice="69.99" image={require('../../assets/producti4.png')} />
+        <ProductComp productName="Product 1" productPrice="$10" />
+        <ProductComp productName="Product 2" productPrice="$20" />  
       </View>
 
       <TouchableOpacity
