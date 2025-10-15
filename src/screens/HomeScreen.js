@@ -25,6 +25,12 @@ const HomeScreen = ({navigation}) => {
       >
         <Text style={styles.buttonText}>Go to Product List</Text>
       </TouchableOpacity>
+      <TouchableOpacity
+        onPress={() => navigation.navigate("Api")}
+        style={styles.button}
+      >
+        <Text style={styles.buttonText}>Go to Api</Text>
+      </TouchableOpacity>
       
 
     </View>
