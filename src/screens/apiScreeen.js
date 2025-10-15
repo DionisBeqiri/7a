@@ -11,7 +11,8 @@ class ApiScreen extends react.Component {
 
     async componentDidMount() {
         const data = await fetch('https://jsonplaceholder.typicode.com/posts');
-        
+        const dataJson = await data.json();
+        this.setState({ posts: dataJson });
     }
 
     render() {
