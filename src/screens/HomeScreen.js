@@ -31,6 +31,12 @@ const HomeScreen = ({navigation}) => {
       >
         <Text style={styles.buttonText}>Go to Api</Text>
       </TouchableOpacity>
+      <TouchableOpacity
+        onPress={() => navigation.navigate("Photos")}
+        style={styles.button}
+      >
+        <Text style={styles.buttonText}>PhotoUserScreen</Text>
+      </TouchableOpacity>
       
 
     </View>

@@ -6,6 +6,7 @@ import AboutScreen from "./src/screens/aboutScreen";
 import ShopScreen from "./src/screens/shopScreen";
 import ProductList from "./src/screens/productList";
 import ApiScreen from "./src/screens/apiScreeen";
+import PhotoScreen from "./src/screens/PhotoUserScreen";
 
 const Stack = createStackNavigator();
 
@@ -21,6 +22,7 @@ export default function App() {
         <Stack.Screen name="ProductList" component={ProductList} />
         <Stack.Screen name="Shop" component={ShopScreen} />
         <Stack.Screen name="Api" component={ApiScreen} />
+        <Stack.Screen name="Photos" component={PhotoScreen} />
         
         
       </Stack.Navigator>
