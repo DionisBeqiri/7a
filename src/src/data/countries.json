@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Albania",
+        "code": "AL",
+        "capital": "Tirana",
+        "region": "Europe",
+        "population": 2877797,
+        "flag": "assets/flags/albanian.webp"
+    },
+    {
+        "id": 2,
+        "name": "Kosovo",
+        "code": "XK",
+        "capital": "Pristina",
+        "region": "Europe",
+        "population": 1831000,
+        "flag": "assets/flags/kosovo.png"
+    },
+    {
+        "id": 3,
+        "name": "United States",
+        "code": "US",
+        "capital": "Washington, D.C.",
+        "region": "Americas",
+        "population": 331893745,
+        "flag": "assets/flags/united_states.png"
+    },
+    {
+        "id": 4,
+        "name": "Canada",
+        "code": "CA",
+        "capital": "Ottawa",
+        "region": "Americas",
+        "population": 38005238,
+        "flag": "assets/flags/canada.png"
+    }
+]
